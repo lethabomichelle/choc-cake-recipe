@@ -1,0 +1,155 @@
+* {
+    margin: 0rem;
+    padding: 0;  
+}
+
+body {
+    background-image:url(./images/sift.jpg);
+    background-size: cover;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: x-large; 
+    backdrop-filter: blur(5rem);
+    padding: 3rem;
+}
+nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(241, 229, 240);  
+}
+
+nav a {
+    display:inline block;
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: rgb(224, 164, 181);
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 6rem;
+    margin: 0%;
+ }
+
+#discribtion {
+    background-color:rgb(224, 164, 181) ;
+    border-radius: 1rem;
+    border-radius: 100%;
+    /* display: flex; */
+}
+
+#home {
+    /* background-color: white; */
+    padding-bottom: 5rem;
+    margin-top: 3rem;
+}
+#top {
+    display: flex;
+    margin: auto;
+    /* flex-direction: row-reverse; */
+    background-color: #B49883;
+    padding: 2rem;
+    border-radius: 1rem;
+    /* max-width: 57.1rem; */
+    width: 80rem;
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 1rem;
+}
+
+#top img {
+    margin-right: 2rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+#cake {
+    float: right;
+    width: 50%;
+    height: fit-content;
+}
+
+h2 {
+    font-family:"Poppins", sans-serif;
+    font-weight: 100; ;
+    font-size: xx-large;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+hr.solid {
+    border-top: 0.2rem solid black;
+    margin: 2rem;
+}
+
+#recipe {
+    display: flex;
+    background-color: #B49883;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#recipe li{
+    list-style: none;
+}
+
+#recipe h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;   
+}
+
+#more-recipes li{
+    list-style: none;
+}
+
+#icing{
+    margin-top: 3rem;
+}
+
+#instructions li{
+    margin-bottom: 1rem;
+}
+
+
+
+#preparation img {
+    border-radius: 2rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    height: 5rem;
+    padding: 1rem;
+}
+
+footer a{
+    font-size: 5rem;
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
+
